@@ -6,7 +6,8 @@ def find_even_values(src)
     element_index = 0
     while element_index < src[row_index].count do
       if src[row_index] % 2 === [element_index]
-        even_array.push(src[row_index])
+        src[row_index][element_index]
+        #even_array.push(src[row_index])
       end
       row_index += 1
     end
