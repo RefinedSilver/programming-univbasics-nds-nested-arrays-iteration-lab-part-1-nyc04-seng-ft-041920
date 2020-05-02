@@ -10,8 +10,6 @@ def find_even_values(src)
       element_index += 1
     end
     row_index += 1
-
   end
-    #even_array
   # Output all even values in each nested array
 end
